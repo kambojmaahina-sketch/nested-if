@@ -1,12 +1,12 @@
-'''enter age of ram shyam and mohan and print who is eldest suing if-elif-else'''
-a=int(input("enter ram age:"))
-b=int(input("enter shyam age:"))
-c=int(input("enter mohan age:"))
+''''''
+a=int(input("Enter Ram's age: "))
+b=int(input("Enter Shyam's age: "))
+c=int(input("Enter Mohan's age: "))
 if a>b and a>c:
-    print("Ram is eldest")
-elif a<b and b>c:
-    print("Shyam is eldest")
-elif a<c and c>b:
-    print("Mohan is eldest")
+    print("Ram is the eldest.")
+elif b>a and b>c:
+    print("Shyam is the eldest.")
+elif c>a and c>b:
+    print("Mohan is the eldest.")
 else:
-    print ("Two or more person have same age")
+    print("Two or more persons have the same highest age.")
